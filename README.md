@@ -11,4 +11,9 @@ Desarrollar una aplicación desplegada en la nube que obtenga los datos de los p
 Se puede observar, a través de los siguientes enlaces, las configuraciones que se han llevado a cabo en el repositorio del proyecto.
 - [Asignación de nombre y correo de usuario](./configuracion/nombre_correo.png)
 - [Generación de una clave SSH para el establecimiento de una conexión segura con Github](./configuracion/generar_clave.png)
-- [Adición de la clave SSH al repositorio de Github](./configuracion/añadir_clave.png) 
+- [Adición de la clave SSH al repositorio de Github](./configuracion/añadir_clave.png)
+
+## Documentación del proyecto
+- [Historias de usuario](./documentos/user-stories.md)
+- [Recorridos de usuario](./documentos/user-journeys.md)
+- [Hitos del proyecto](./documentos/milestones.md)
