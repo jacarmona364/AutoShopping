@@ -75,7 +75,6 @@
 ### Viabilidad: 
   Este milestone es esencial para personalizar la experiencia de usuario. Se deberá asegurar que:
 - Los filtros aplicados por el usuario funcionan correctamente y se reflejan en la lista final generada.
-- Los filtros son lo suficientemente amplios y prácticos para cubrir las necesidades comunes de los usuarios.
 
 ### Criterios de viabilidad: 
 - Las listas de compra generadas deben respetar al 100% las preferencias del usuario en cuanto a tipos de alimentos y supermercados seleccionados.
