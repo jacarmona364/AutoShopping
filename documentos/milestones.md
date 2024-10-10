@@ -70,7 +70,7 @@
 - Código que integre las opciones de exclusión de productos en el proceso de generación de la lista de la compra, permitiendo al usuario personalizar su lista según sus necesidades.
 
 ### Producto: 
-- Funcionalidad que permite al usuario configurar y aplicar filtros antes de generar la lista de la compra, actualizando el módulo de generación de listas para que respete estos filtros y produzca una lista ajustada a las preferencias del usuario, y también impelmentando para ello nuevos apartados en la interfaz que permitan al usuario aplicar esos filtros de manera sencilla e intuitiva.
+- Funcionalidad que permite al usuario configurar y aplicar filtros antes de generar la lista de la compra, actualizando el módulo de generación de listas para que respete estos filtros y produzca una lista ajustada a las preferencias del usuario, y también implementando para ello nuevos apartados en la interfaz que permitan al usuario aplicar esos filtros de manera sencilla e intuitiva.
 
 ### Viabilidad: 
   Este milestone es esencial para personalizar la experiencia de usuario. Se deberá asegurar que:
