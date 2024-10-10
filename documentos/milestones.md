@@ -12,11 +12,7 @@
 ### Viabilidad: 
   Este milestone es crucial para establecer las bases tecnológicas del proyecto. Se deberá asegurar que:
 - Las tecnologías seleccionadas permiten la extracción completa de la información relevante de la web analizada.
-- El código generado para la interfaz permitirá en un futuro la correcta interacción del usuario con la aplicación.
-
-### Criterios de viabilidad: 
-- El prototipo debe demostrar que se han extraído correctamente todos los datos de los productos necesarios.
-- La interfaz debe ser mínimamente intuitiva y permitir la implementación de la funcionalidad de _"Generación automática de lista de la compra"_.
+- El código generado para la interfaz permitirá en un futuro la correcta interacción del usuario con la aplicación, facilitando la posterior implementación de la funcionalidad de _"Generación automática de lista de la compra"_.
 
 ### HU relacionadas: [HU01],[HU02],[HU03]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,13 +27,9 @@
 - Código del módulo base de la aplicación que genera una lista de la compra sin restricciones adicionales (en concreto, ajustes según presupuesto o preferencias dietéticas) de acuerdo con los valores recomendados para una dieta equilibrada.
 
 ### Viabilidad: 
-  Este milestone es fundamental para validar que el módulo de generación de listas funciona correctamente y es capaz de producir resultados válidos. Será necesario:
-- Verificar que las listas de compra cumplen con los estándares nutricionales básicos para una dieta saludable y equilibrada.
-- Asegurar que la lógica del módulo se puede adaptar fácilmente a futuras mejoras y restricciones.
-
-### Criterios de viabilidad: 
+  Este milestone es fundamental para validar que el módulo de generación de listas funciona correctamente y es capaz de producir resultados válidos. Se debe tener en cuenta:
 - La lógica de selección debe ser evaluada mediante pruebas nutricionales básicas, asegurando que los resultados cumplen con los mínimos recomendados para una dieta saludable (por ejemplo, equilibrio de macronutrientes).
-- El código debe facilitar la posterior implementación de las funciones de _ajuste de lista de la compra a un presupuesto_ y _filtrado de los productos en listas de la compra_.
+- Asegurar que la lógica del módulo se puede adaptar fácilmente a futuras mejoras y restricciones.
 
 ### HU relacionadas: [HU02]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -53,12 +45,8 @@
 
 ### Viabilidad: 
   Este milestone es fundamental para asegurar que la aplicación puede ajustarse a restricciones económicas sin comprometer la calidad nutricional de las listas de compra. Se deberá asegurar que:
-- El módulo es capaz de generar listas dentro de los límites presupuestarios establecidos por el usuario.
-- La lógica del algoritmo prioriza alimentos más económicos cuando es necesario, y sigue manteniendo el equilibrio nutricional.
-
-### Criterios de viabilidad: 
-- Las listas generadas deben respetar el presupuesto máximo ingresado por el usuario en el 100% de los casos.
-- Se debe probar que el módulo puede generar múltiples combinaciones de productos que se ajusten al presupuesto sin comprometer los criterios del equilibrio nutricional, los cuáles fueron documentados en el código perteneciente a la funcionalidad de _generacion automatica de listas de la compra_.
+- Las listas generadas respetan el presupuesto máximo ingresado por el usuario en el 100% de los casos.
+- Se debe probar que el módulo puede generar múltiples combinaciones de productos que se ajusten al presupuesto sin comprometer los criterios del equilibrio nutricional, los cuáles fueron documentados en el código perteneciente a la funcionalidad de _generación automática de listas de la compra_.
 
 ### HU relacionadas: [HU01]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -74,10 +62,6 @@
 
 ### Viabilidad: 
   Este milestone es esencial para personalizar la experiencia de usuario. Se deberá asegurar que:
-- Los filtros aplicados por el usuario funcionan correctamente y se reflejan en la lista final generada.
-
-### Criterios de viabilidad: 
-- Las listas de compra generadas deben respetar al 100% las preferencias del usuario en cuanto a tipos de alimentos y supermercados seleccionados.
-- Se debe probar que el módulo puede generar múltiples combinaciones de productos aplicando distintos filtros sin comprometer los criterios del equilibrio nutricional, los cuáles fueron documentados en el código perteneciente a la funcionalidad de _generacion automatica de listas de la compra_.
+- Las listas de compra generadas respetan al 100% las preferencias del usuario en cuanto a tipos de alimentos y supermercados seleccionados sin comprometer los criterios del equilibrio nutricional, los cuáles fueron documentados en el código perteneciente a la funcionalidad de _generación automática de listas de la compra_.
 
 ### HU relacionadas: [HU03]
