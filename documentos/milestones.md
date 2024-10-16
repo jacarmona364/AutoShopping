@@ -1,6 +1,6 @@
 # Milestones del proyecto
 
-## [[M01] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
+## [[M0] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 ### Descripción: Analizar las historias de usuario para modelar la extracción de datos (scrapping) de la web seleccionada y generar una interfaz mínima básica para las posteriores funciones que va a poder realizar el usuario.
 
 ### Entregables: 
@@ -16,7 +16,7 @@
 
 ### HU relacionadas: [HU01],[HU02],[HU03]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [[M02] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
+## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 ### Descripción: Desarrollar un módulo que utilice los datos de alimentos extraídos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
 
 ### Entregables: 
@@ -33,7 +33,7 @@
 
 ### HU relacionadas: [HU02]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [[M03] Ajuste de la lista de la compra a un presupuesto](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
+## [[M2] Ajuste de la lista de la compra a un presupuesto](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
 ### Descripción: Implementar un módulo que, determinada por el usuario una cantidad de dinero que funciona como presupuesto para la compra semanal, utilice el algoritmo diseñado previamente para generar una lista de la compra que no supere en coste dicha cantidad.
 
 ### Entregables: 
@@ -50,7 +50,7 @@
 
 ### HU relacionadas: [HU01]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-## [[M04] Filtrado de las listas de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/4)
+## [[M3] Filtrado de las listas de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/4)
 ### Descripción: Implementar un módulo que cape la generación de listas de la compra según preferencias indicadas por el usuario, filtrando los productos disponibles por supermercados y tipo de alimento (pescado, verdura, carne...), y dando la posibilidad de no tener en cuenta algunos productos si pertenecen a alguno de esos filtros a la hora de incluirlos en dichas listas.
 
 ### Entregables: 
