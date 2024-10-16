@@ -2,10 +2,17 @@
 Problema planteado para la asignatura de Infraestructura Virtual.
 
 ## Descripción del problema
-Muchas personas tienen problemas a la hora de realizar la compra semanal, ya que quieren comprar todo lo necesario para tener una dieta lo más balanceada posible pero no quieren gastarse demasiado dinero en ello. Esto preocupa, sobretodo, a personas con poco poder adquisitivo, como estudiantes universitarios. Además, el ajustarse a un presupuesto es un gran problema debido a la variedad de distintos supermercados que existen y la variabilidad de productos y precios entre uno y otro, lo que complica aún más la tarea de organizarse antes de salir a hacer la compra.
+Soy un estudiante con un presupuesto limitado cada semana para hacer la compra, y quiero asegurarme de que lo que gasto me permita tener una dieta lo más equilibrada posible. Sin embargo, cada supermercado tiene precios diferentes, y a veces es complicado saber en cuál me conviene más comprar para ajustarme a lo que puedo gastar. Además, no quiero perder tiempo buscando en múltiples tiendas o visitando varias páginas web para comparar productos.
 
-## Descripción de la solución
-Desarrollar una aplicación desplegada en la nube que obtenga los datos de los precios y tipos de alimento de distintos productos alimenticios **scrapeando** la información de los supermercados más conocidos. Como obtener estos datos de las páginas oficiales de los supermercados es demasiado complejo, se deberá utilizar una web que contenga esa información pero sea más sencilla de scrapear, y en este caso usaré la web [SoySuper](https://soysuper.com), de la cuál he investigado cómo obtener su información de manera sencilla. Con estos datos, la aplicación utilizará un algoritmo que, al introducir el usuario el presupuesto máximo que desea gastarse esa semana en hacer la compra, genere una lista de los alimentos que puede permitirse, intentando que éstos sean variados y que completen una dieta lo más equilibrada posible que cubra los 7 días de la semana. Además, el usuario podrá hacer modificaciones a la hora de generar la lista de compra, como indicar que sólo quiere que se señalen productos de un supermercado específico (si no quiere desplazarse entre supermercados para hacer una única compra), o señalar si no desea comprar algún tipo de alimento (porque no les guste, o sea alérgico, o por otros motivos).
+El problema se complica aún más cuando intento planificar una compra completa para la semana, porque quiero variar los alimentos que compro y asegurarme de que tengo todo lo necesario para una dieta saludable. Pero al mismo tiempo, no puedo pasarme del presupuesto. No siempre es fácil encontrar un balance entre ahorrar dinero y asegurarme de que mi alimentación sea variada y nutritiva.
+
+## Objetivos
+- Facilitar la elaboración de la lista de la compra semanal, automatizando la selección de alimentos de supermercados específicos permitiendo ahorrar tiempo al usuario.
+- Asegurar una dieta equilibrada, generando listas de la compra que contengan todos los tipos de alimentos necesarios para mantener una dieta sana.
+- Ahorrar haciendo la compra, asegurando que las listas realizadas por el usuario no superen un presupuesto autoimpuesto.
+
+## Enlaces de interés
+- Web para la obtención de información (_scrapping_) de productos de supermercados: [SoySuper](https://soysuper.com).
 
 ## Configuración del repositorio
 Se puede observar, a través de los siguientes enlaces, las configuraciones que se han llevado a cabo en el repositorio del proyecto.
