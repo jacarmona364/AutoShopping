@@ -1,34 +1,35 @@
 # Milestones del proyecto
 
 ## [[M0] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
-### Descripción: Analizar las historias de usuario para modelar la extracción de datos (scrapping) de la web seleccionada y generar una interfaz mínima básica para las posteriores funciones que va a poder realizar el usuario.
+### Descripción: Analizar las historias de usuario para definir los elementos del dominio del problema.
 
 ### Entregables: 
-- Código funcional del núcleo de la aplicación que implemente la extracción básica de datos y la interfaz mínima con la que posteriormente interaccionará el usuario.
+- Código que abarque los elementos del dominio y las relaciones entre dichos elementos, generando clases y características propias para cada uno de ellos.
 
 ### Producto: 
-- Prototipo de la aplicación con una interfaz mínima que permita mostrar cómo se procesarían los datos de productos alimenticios obtenidos desde la web [SoySuper](https://soysuper.com/).
+- Prototipo de la aplicación con una interfaz mínima que permita mostrar los elementos del dominio del proyecto.
 
 ### Viabilidad: 
   Este milestone es crucial para establecer las bases tecnológicas del proyecto. Se deberá asegurar que:
-- Las tecnologías seleccionadas permiten la extracción completa de la información relevante de la web analizada.
 - El código generado para la interfaz permitirá en un futuro la correcta interacción del usuario con la aplicación, facilitando la posterior implementación de la funcionalidad de _"Generación automática de lista de la compra"_.
 
 ### HU relacionadas: [HU01],[HU02],[HU03]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
-### Descripción: Desarrollar un módulo que utilice los datos de alimentos extraídos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
+### Descripción: Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
 
 ### Entregables: 
+- Módulo funcional que extraiga los datos necesarios de productos de supermercado desde la web [SoySuper](https://soysuper.com/).
 - Módulo funcional que genera automáticamente una lista de la compra a partir de los datos extraídos.
 - Documentación mínima en el propio código que describa los criterios de balance nutricional empleados y cómo se aplican en la generación de la lista.
 
 ### Producto: 
-- Código del módulo base de la aplicación que genera una lista de la compra sin restricciones adicionales (en concreto, ajustes según presupuesto o preferencias dietéticas) de acuerdo con los valores recomendados para una dieta equilibrada.
+- Código del módulo base de la aplicación que extrae los datos necesarios de la web seleccionada y genera una lista de la compra sin restricciones adicionales (en concreto, ajustes según presupuesto o preferencias dietéticas) de acuerdo con los valores recomendados para una dieta equilibrada.
 
 ### Viabilidad: 
   Este milestone es fundamental para validar que el módulo de generación de listas funciona correctamente y es capaz de producir resultados válidos. Se debe tener en cuenta:
 - La lógica de selección debe ser evaluada mediante pruebas nutricionales básicas, asegurando que los resultados cumplen con los mínimos recomendados para una dieta saludable (por ejemplo, equilibrio de macronutrientes).
+- La extracción de datos desde la web seleccionada es completa y satisfactoria, obteniendo la información necesaria para completar los elementos del dominio de la aplicación.
 - Asegurar que la lógica del módulo se puede adaptar fácilmente a futuras mejoras y restricciones.
 
 ### HU relacionadas: [HU02]
