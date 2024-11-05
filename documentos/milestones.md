@@ -1,7 +1,7 @@
 # Milestones del proyecto
 
 ## [[M0] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
-### Descripción: Analizar las historias de usuario para definir los elementos del dominio del problema.
+### Descripción: Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para identificar los elementos del dominio que respondan a las necesidades de presupuesto limitado y equilibrio nutricional respectivamente. Este análisis servirá para definir las clases iniciales y relaciones entre elementos que serán fundamentales en el diseño de la funcionalidad de generación de listas de compra adaptadas.
 
 ### Entregables: 
 - Código que abarque los elementos del dominio y las relaciones entre dichos elementos, generando clases y características propias para cada uno de ellos.
