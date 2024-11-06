@@ -12,7 +12,10 @@
 ### Viabilidad: 
   Este milestone es crucial para establecer las bases tecnológicas del proyecto. Se deberá asegurar que:
 - El código generado para la interfaz permitirá en un futuro la correcta interacción del usuario con la aplicación, facilitando la posterior implementación de la funcionalidad de _"Generación automática de lista de la compra"_.
-  
+
+### Historias de usuario asociadas:
+- HU01 (Julián) y HU02 (Fernando)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 ### Descripción: Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
@@ -31,6 +34,9 @@
 - La extracción de datos desde la web seleccionada es completa y satisfactoria, obteniendo la información necesaria para completar los elementos del dominio de la aplicación.
 - Asegurar que la lógica del módulo se puede adaptar fácilmente a futuras mejoras y restricciones.
 
+### Historias de usuario asociadas:
+- HU02 (Fernando)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M2] Ajuste y filtrado de la lista de la compra a un presupuesto y preferencias](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
 ### Descripción: Implementar un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos. El sistema debe excluir productos que no cumplan con los filtros definidos sin comprometer el equilibrio nutricional.
@@ -46,3 +52,6 @@
 Este milestone asegurará la correcta personalización de la generación de listas de la compra por parte del usuario. Se deberá asegurar que:
 - Las listas generadas respetan al 100% el presupuesto máximo ingresado y las preferencias del usuario.
 - El sistema es capaz de ofrecer combinaciones de productos variadas y ajustadas a las restricciones, sin comprometer la calidad nutricional.
+
+### Historias de usuario asociadas:
+- HU01 (Julián) y HU03 (Nieves)
