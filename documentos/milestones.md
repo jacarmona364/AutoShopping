@@ -1,13 +1,14 @@
 # Milestones del proyecto
 
 ## [[M0] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
-### Descripción: Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para identificar los elementos del dominio que respondan a las necesidades de presupuesto limitado y equilibrio nutricional respectivamente. Este análisis servirá para definir las clases iniciales y relaciones entre elementos que serán fundamentales en el diseño de la funcionalidad de generación de listas de compra adaptadas.
+### Descripción: 
+Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para identificar y estructurar los elementos del dominio, incluyendo los conceptos clave y relaciones necesarias para diseñar la funcionalidad de generación de listas de compra adaptadas.
 
 ### Entregables: 
-- Código que abarque los elementos del dominio y las relaciones entre dichos elementos, generando clases y características propias para cada uno de ellos.
-
+- Código que defina los elementos del dominio y las relaciones clave entre ellos, especificando atributos y métodos relevantes de cada clase, en función de las necesidades del usuario.
+  
 ### Producto: 
-- Prototipo de la aplicación con una interfaz mínima que permita mostrar los elementos del dominio del proyecto.
+- Código que defina el modelo de la aplicación con una interfaz mínima que permita mostrar los elementos del dominio del proyecto.
 
 ### Viabilidad: 
   Este milestone es crucial para establecer las bases tecnológicas del proyecto. Se deberá asegurar que:
@@ -18,7 +19,8 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
-### Descripción: Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
+### Descripción: 
+Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
 
 ### Entregables: 
 - Módulo funcional que extraiga los datos necesarios de productos de supermercado desde la web [SoySuper](https://soysuper.com/).
@@ -39,7 +41,8 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M2] Ajuste y filtrado de la lista de la compra a un presupuesto y preferencias](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
-### Descripción: Implementar un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos. El sistema debe excluir productos que no cumplan con los filtros definidos sin comprometer el equilibrio nutricional.
+### Descripción: 
+Implementar un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos. El sistema debe excluir productos que no cumplan con los filtros definidos sin comprometer el equilibrio nutricional.
 
 ### Entregables:
 - Módulo funcional que genera una lista de la compra ajustada a un presupuesto, con productos filtrados por tipo de alimento y supermercado.
