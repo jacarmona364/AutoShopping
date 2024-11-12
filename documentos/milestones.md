@@ -1,18 +1,19 @@
 # Milestones del proyecto
 
-## [[M0] Fundamentos del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
+## [[M0] Modelo del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 ### Descripción: 
-Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para identificar y estructurar los elementos del dominio, incluyendo los conceptos clave y relaciones necesarias para diseñar la funcionalidad de generación de listas de compra adaptadas.
+Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para desarrollar el modelo fundamental del problema.
 
 ### Entregables: 
-- Código que defina los elementos del dominio y las relaciones clave entre ellos, especificando atributos y métodos relevantes de cada clase, en función de las necesidades del usuario.
+- Código que concrete el modelo inicial del problema, sobre el cual se desarrollará posteriormente.
   
 ### Producto: 
-- Código que defina el modelo de la aplicación con una interfaz mínima que permita mostrar los elementos del dominio del proyecto.
+- Código que define el modelo de la aplicación.
 
 ### Viabilidad: 
-  Este milestone es crucial para establecer las bases tecnológicas del proyecto. Se deberá asegurar que:
-- El código generado para la interfaz permitirá en un futuro la correcta interacción del usuario con la aplicación, facilitando la posterior implementación de la funcionalidad de _"Generación automática de lista de la compra"_.
+Este milestone se considerará viable si:
+- El código entregado representa el modelo del problema abarcando los problemas descritos en las HU01 y HU02.
+- El código está correctamente estructurado, permitiendo el futuro desarrollo de la aplicación.
 
 ### Historias de usuario asociadas:
 - HU01 (Julián) y HU02 (Fernando)
@@ -31,7 +32,7 @@ Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para 
 - Código del módulo base de la aplicación que extrae los datos necesarios de la web seleccionada y genera una lista de la compra sin restricciones adicionales (en concreto, ajustes según presupuesto o preferencias dietéticas) de acuerdo con los valores recomendados para una dieta equilibrada.
 
 ### Viabilidad: 
-  Este milestone es fundamental para validar que el módulo de generación de listas funciona correctamente y es capaz de producir resultados válidos. Se debe tener en cuenta:
+Este milestone es fundamental para validar que el módulo de generación de listas funciona correctamente y es capaz de producir resultados válidos. Se debe tener en cuenta:
 - La lógica de selección debe ser evaluada mediante pruebas nutricionales básicas, asegurando que los resultados cumplen con los mínimos recomendados para una dieta saludable (por ejemplo, equilibrio de macronutrientes).
 - La extracción de datos desde la web seleccionada es completa y satisfactoria, obteniendo la información necesaria para completar los elementos del dominio de la aplicación.
 - Asegurar que la lógica del módulo se puede adaptar fácilmente a futuras mejoras y restricciones.
