@@ -2,10 +2,10 @@
 
 ## [[M0] Modelo del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 ### Descripción: 
-Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para desarrollar el modelo fundamental del problema.
+Analizar las historias de usuario HU01 (Julián) y HU02 (Fernando) para desarrollar el modelo del problema.
 
 ### Entregables: 
-- Código que concrete el modelo inicial del problema, sobre el cual se desarrollará posteriormente.
+- Código que concrete el modelo del problema, sobre el cual se desarrollará posteriormente.
   
 ### Producto: 
 - Código que define el modelo de la aplicación.
