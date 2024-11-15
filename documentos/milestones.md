@@ -2,17 +2,17 @@
 
 ## [[M0] Modelo del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 ### Descripción: 
-Definir el modelo del problema concretado en las HU01 (Julián) y HU02 (Fernando).
+Definir el modelo del problema concretado en la HU02 (Fernando).
 
 ### Entregable: 
 - Código que defina el modelo del problema, sobre el cual se desarrollará posteriormente.
 
 ### Viabilidad: 
 Este milestone se considerará viable si:
-- El código entregado representa el modelo del problema abarcando los problemas descritos en las HU01 y HU02.
+- El código entregado representa el modelo del problema abarcando los problemas descritos en la HU02.
 
 ### Historias de usuario asociadas:
-- HU01 (Julián) y HU02 (Fernando)
+- HU02 (Fernando)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
@@ -28,7 +28,6 @@ Código que implemente:
 ### Viabilidad: 
 Este milestone se considerará viable cuando:
 - La lógica de selección sea evaluada mediante pruebas nutricionales básicas, asegurando que los resultados cumplen con los mínimos recomendados para una dieta saludable (por ejemplo, equilibrio de macronutrientes).
-- La extracción de datos desde la web seleccionada sea completa y satisfactoria, obteniendo la información necesaria para completar los elementos del dominio de la aplicación.
 
 ### Historias de usuario asociadas:
 - HU02 (Fernando)
