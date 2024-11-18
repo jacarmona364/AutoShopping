@@ -2,22 +2,19 @@
 
 ## [[M0] Modelo del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 ### Descripción: 
-Definir el modelo del problema concretado en la HU02 (Fernando).
+Representación del modelo del problema concretado en la HU02 (Fernando).
 
 ### Entregable: 
-- Código que defina el modelo del problema, sobre el cual se desarrollará posteriormente.
+- Código que represente el modelo del problema, sobre el cual se desarrollará posteriormente.
 
 ### Viabilidad: 
 Este milestone se considerará viable si:
 - El código entregado representa el modelo del problema abarcando los problemas descritos en la HU02.
 
-### Historias de usuario asociadas:
-- HU02 (Fernando)
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 ### Descripción: 
-Desarrollar un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible.
+Desarrollo de un módulo que extraiga los datos de las fuentes seleccionadas para generar automáticamente una lista de la compra que contenga todos los alimentos necesarios para satisfacer las necesidades nutricionales de una persona adulta durante 7 días, asegurando que la dieta sea lo más equilibrada posible, atendiendo al problema descrito en la HU02 (Fernando).
 
 ### Entregable: 
 Código que implemente:
@@ -29,13 +26,10 @@ Código que implemente:
 Este milestone se considerará viable cuando:
 - La lógica de selección sea evaluada mediante pruebas nutricionales básicas, asegurando que los resultados cumplen con los mínimos recomendados para una dieta saludable (por ejemplo, equilibrio de macronutrientes).
 
-### Historias de usuario asociadas:
-- HU02 (Fernando)
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M2] Ajuste y filtrado de la lista de la compra a un presupuesto y preferencias](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
 ### Descripción: 
-Implementar un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos. El sistema debe excluir productos que no cumplan con los filtros definidos sin comprometer el equilibrio nutricional.
+Implementación de un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos. El sistema debe excluir productos que no cumplan con los filtros definidos sin comprometer el equilibrio nutricional, resolviendo los problemas descritos en la HU01 (Julián) y la HU03 (Nieves).
 
 ### Entregable:
 Código que implemente:
@@ -46,6 +40,3 @@ Código que implemente:
 Este milestone se considerará viable si:
 - Las listas generadas respetan al 100% el presupuesto máximo ingresado y las preferencias del usuario.
 - El sistema es capaz de ofrecer combinaciones de productos variadas y ajustadas a las restricciones sin comprometer la calidad nutricional.
-
-### Historias de usuario asociadas:
-- HU01 (Julián) y HU03 (Nieves)
