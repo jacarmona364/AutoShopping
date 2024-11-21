@@ -11,13 +11,11 @@ Este milestone se considerará viable si:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
-### Descripción: 
-Desarrollo de un módulo que, basándose en los requisitos descritos en la HU02 (Fernando), permita utilizar datos de fuentes seleccionadas para generar listas de la compra orientadas a satisfacer las necesidades nutricionales de una persona adulta durante una semana.
 
 ### Entregable: 
-Código que implemente:
+Código que resuelva el problema planteado en la HU02 (Fernando), implementando:
 - Módulo funcional que obtenga los datos necesarios para generar las listas de la compra.
-- Módulo funcional que genera automáticamente una lista de la compra.
+- Módulo funcional que genera automáticamente una lista de la compra semanal.
 - Módulo funcional que implemente criterios nutricionales que aseguren que las listas generadas son equilibradas y completas.
 
 ### Viabilidad: 
@@ -26,13 +24,11 @@ Este milestone se considerará viable cuando:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M2] Ajuste y filtrado de la lista de la compra a un presupuesto y preferencias](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
-### Descripción: 
-Implementación de un módulo que genere una lista de la compra ajustada a un presupuesto semanal ingresado por el usuario, aplicando además filtros de preferencias que permitan seleccionar tipos de alimentos (pescado, verdura, carne, etc.) y supermercados específicos, resolviendo los problemas descritos en la HU01 (Julián) y la HU03 (Nieves).
 
 ### Entregable:
-Código que implemente:
-- Módulo funcional que genera una lista de la compra ajustada a un presupuesto.
-- Módulo que filtre las listas de la compra según las preferencias del usuario en cuanto a tipos de productos y supermercados específicos.
+Código que resuelve el problema planteado en la HU01 (Julián) y en la HU03 (Nieves), implementando:
+- Módulo funcional que genera una lista de la compra ajustada a un presupuesto ingresado por el usuario.
+- Módulo que filtre las listas de la compra según las preferencias del usuario en cuanto a tipos de productos (carne, legumbres, verdura...) y supermercados específicos.
 
 ### Viabilidad:
 Este milestone se considerará viable si:
