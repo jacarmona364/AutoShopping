@@ -1,5 +1,12 @@
 # User-Journeys
 
+## Fernando, oficinista
+Fernando necesita una lista de la compra equilibrada que contenga todos los nutrientes necesarios para llevar una dieta sana. No le importa el coste total de dicha compra. Utilizará la aplicación al menos una vez a la semana y lo hará desde el ordenador de sobremesa con el que cuenta en su empresa, aunque luego utilizará su teléfono móvil para visionar la lista de la compra que se le genere cuando vaya a comprar. No indicará en la aplicación ninguna restricción y, por lo tanto, la aplicación le ofrecerá una lista de la compra lo más equilibrada y sana posible, con los mejores productos de cada supermercado.
+### Recorrido del usuario:
+  - El usuario accede al sistema y selecciona la opción _Generar lista de la compra_, de esa manera no se aplicarán restricciones a la misma.
+  - El sistema utiliza los datos almacenados sobre productos previamente extraídos desde [SuperChisma](https://superchisma.com/) y [Supermercados El Jamón](https://www.supermercadoseljamon.com/) y genera una lista de la compra equilibrada independientemente del precio de los productos que se vayan a evaluar, independientemente del tipo que sean y del supermercado donde se encuentren disponibles (es decir, se generará la lista de la compra más equilibrada y completa posible).
+  - El sistema muestra por pantalla la lista de la compra generada.
+
 ## Julián, estudiante universitario
 Julián cuenta con un presupuesto limitado para hacer la lista de la compra. No le importa si tiene que acudir a distintos supermercados si con ello se consigue ajustar a su presupuesto. Utilizará la aplicación una vez a la semana para comprar todos sus alimentos de una misma vez, y siempre lo hará desde su teléfono móvil.
 Introducirá el presupuesto que va a dedicar esta semana en la aplicación, sin añadirle ninguna otra restricción de ningún tipo, y el sistema le ofrecerá una lista de la compra cuyo coste total no sobrepase la cantidad previamente introducida.
@@ -7,13 +14,6 @@ Introducirá el presupuesto que va a dedicar esta semana en la aplicación, sin 
   - El usuario accede al sistema y introduce una cantidad numérica en la casilla mercada como _Presupuesto de compra_.
   - El usuario selecciona la opción _Generar lista de la compra_.
   - El sistema utiliza los datos almacenados sobre productos previamente extraídos y genera una lista de la compra equilibrada que no supere en coste a la cantidad introducida por el usuario.
-  - El sistema muestra por pantalla la lista de la compra generada.
-
-## Fernando, oficinista
-Fernando necesita una lista de la compra equilibrada que contenga todos los nutrientes necesarios para llevar una dieta sana. No le importa el coste total de dicha compra. Utilizará la aplicación al menos una vez a la semana y lo hará desde el ordenador de sobremesa con el que cuenta en su empresa, aunque luego utilizará su teléfono móvil para visionar la lista de la compra que se le genere cuando vaya a comprar. No indicará en la aplicación ninguna restricción y, por lo tanto, la aplicación le ofrecerá una lista de la compra lo más equilibrada y sana posible, con los mejores productos de cada supermercado.
-### Recorrido del usuario:
-  - El usuario accede al sistema y selecciona la opción _Generar lista de la compra_, de esa manera no se aplicarán restricciones a la misma.
-  - El sistema utiliza los datos almacenados sobre productos previamente extraídos y genera una lista de la compra equilibrada independientemente del precio de los productos que se vayan a evaluar, del tipo que sean y del supermercado donde se encuentren disponibles (es decir, se generará la lista de la compra más equilibrada y completa posible).
   - El sistema muestra por pantalla la lista de la compra generada.
 
 ## Nieves, deportista profesional
