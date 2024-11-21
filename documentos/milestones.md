@@ -3,7 +3,7 @@
 ## [[M0] Modelo del problema](https://github.com/GaelGoncalba/AutoShopping/milestone/1)
 
 ### Entregable: 
-- Código que constituye el modelo del problema (descrito en la HU02), sobre el cual se desarrollará posteriormente.
+- Código que constituye el modelo del problema (descrito en la HU01), sobre el cual se desarrollará posteriormente.
 
 ### Viabilidad: 
 Este milestone se considerará viable si:
@@ -13,7 +13,7 @@ Este milestone se considerará viable si:
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 
 ### Entregable: 
-Código que resuelva el problema planteado en la HU02 (Fernando), implementando:
+Código que resuelva el problema planteado en la HU01 (Fernando), implementando:
 - Módulo funcional que obtenga los datos necesarios para generar las listas de la compra.
 - Módulo funcional que genera automáticamente una lista de la compra semanal.
 - Módulo funcional que implemente criterios nutricionales que aseguren que las listas generadas son equilibradas y completas.
@@ -26,7 +26,7 @@ Este milestone se considerará viable cuando:
 ## [[M2] Ajuste y filtrado de la lista de la compra a un presupuesto y preferencias](https://github.com/GaelGoncalba/AutoShopping/milestone/3)
 
 ### Entregable:
-Código que resuelve el problema planteado en la HU01 (Julián) y en la HU03 (Nieves), implementando:
+Código que resuelve el problema planteado en la HU02 (Julián) y en la HU03 (Nieves), implementando:
 - Módulo funcional que genera una lista de la compra ajustada a un presupuesto ingresado por el usuario.
 - Módulo que filtre las listas de la compra según las preferencias del usuario en cuanto a tipos de productos (carne, legumbres, verdura...) y supermercados específicos.
 
