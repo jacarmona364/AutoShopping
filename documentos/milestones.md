@@ -7,14 +7,14 @@
 
 ### Viabilidad: 
 Este milestone se considerará viable si:
-- El código entregado representa el modelo del problema abarcando los problemas descritos en la HU01.
+- El código entregado es el modelo del problema descrito en la HU01.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 
 ### Entregable: 
-- Módulo de código implementado que permite la generación automática de listas de la compra semanales a partir de un conjunto de datos de productos, atendiendo a los problemas y necesidades descritos en la HU02 (Julián) y HU03 (Nieves).
+- Módulo de código implementado que permite la generación automática de listas de la compra semanales a partir de un conjunto de datos de productos, atendiendo a los problemas y necesidades descritos en la HU01.
 
 ### Viabilidad: 
 Este milestone se considerará viable cuando:
-- La lógica de negocio descrita en la HU02 (Julián) y HU03 (Nieves) sea validada mediante tests automáticos.
+- La lógica de negocio descrita en la HU01 sea validada mediante tests automáticos.
