@@ -13,7 +13,7 @@ Este milestone se considerará viable si:
 ## [[M1] Generación automática de una lista de la compra](https://github.com/GaelGoncalba/AutoShopping/milestone/2)
 
 ### Entregable: 
-- Módulo de código implementado que, utilizando el modelo creado en el M0, resuelva el problema descrito en la HU01.
+- Módulo de código que, utilizando el modelo creado en el M0, resuelva el problema descrito en la HU01.
 
 ### Viabilidad: 
 Este milestone se considerará viable cuando:
