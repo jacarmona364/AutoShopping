@@ -5,12 +5,6 @@ import (
 	"fmt"
 )
 
-type PreferenciaUsuario struct {
-	Alergias      []TipoRestriccion
-	Presupuesto   float64
-	Supermercados []Supermercado
-}
-
 type ListaCompra struct {
 	Productos []Producto
 	Total     float64
