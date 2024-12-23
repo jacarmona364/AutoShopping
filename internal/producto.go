@@ -6,7 +6,7 @@ type Producto struct {
 	Nombre       string
 	Marca        string
 	Precio       float64
-	Supermercado string
+	Supermercado Supermercado
 	AptoPara     []TipoRestriccion //Etiquetas para alergias o restricciones
 }
 
