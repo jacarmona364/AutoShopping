@@ -7,29 +7,29 @@ type Producto struct {
 	Marca        string
 	Precio       float64
 	Supermercado Supermercado
-	AptoPara     []TipoRestriccion //Etiquetas para alergias o restricciones
+	Alergias     []Alergia
 }
 
-func NuevoProducto(nombre, marca string, precio float64, supermercado string, aptoPara []string) Producto {
+func NuevoProducto(nombre, marca string, precio float64, supermercado Supermercado, alergias []Alergia) Producto {
 	return Producto{
 		Nombre:       nombre,
 		Marca:        marca,
 		Precio:       precio,
 		Supermercado: supermercado,
-		AptoPara:     aptoPara,
+		Alergias:     alergias,
 	}
 }
 
-type TipoRestriccion string
+type Alergia string
 
 const (
-	SinGluten       TipoRestriccion = "SinGluten"
-	SinLactosa      TipoRestriccion = "SinLactosa"
-	Vegetariano     TipoRestriccion = "Vegetariano"
-	Vegano          TipoRestriccion = "Vegano"
-	SinFrutosSecos  TipoRestriccion = "SinFrutosSecos"
-	SinHuevos       TipoRestriccion = "SinHuevos"
-	SinMariscos     TipoRestriccion = "SinMariscos"
-	SinSoja         TipoRestriccion = "SinSoja"
-	SinPescado      TipoRestriccion = "SinPescado"
+	SinGluten       Alergia = "SinGluten"
+	SinLactosa      Alergia = "SinLactosa"
+	Vegetariano     Alergia = "Vegetariano"
+	Vegano          Alergia = "Vegano"
+	SinFrutosSecos  Alergia = "SinFrutosSecos"
+	SinHuevos       Alergia = "SinHuevos"
+	SinMariscos     Alergia = "SinMariscos"
+	SinSoja         Alergia = "SinSoja"
+	SinPescado      Alergia = "SinPescado"
 )
