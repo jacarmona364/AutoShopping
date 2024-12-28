@@ -10,9 +10,9 @@ type ListaCompra struct {
 	Total     float64
 }
 
-func esProductoValido(producto Producto, alergias []TipoRestriccion) bool {
+func esProductoValido(producto Producto, alergias []Alergia) bool {
 	for _, alergen := range alergias {
-		for _, apto := range producto.AptoPara {
+		for _, apto := range producto.Alergias {
 			if alergen == apto {
 				return false
 			}
