@@ -11,6 +11,10 @@ type Producto struct {
 }
 
 func NuevoProducto(nombre, marca string, precio float64, supermercado Supermercado, alergias []Alergia) Producto {
+	if precio < 0 {
+        return Producto{}, errors.New("El precio del producto no puede ser negativo")
+    }
+
 	return Producto{
 		Nombre:       nombre,
 		Marca:        marca,
