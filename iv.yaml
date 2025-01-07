@@ -1,2 +1,2 @@
 lenguaje: go
-entidad: internal/
+entidad: internal/gestor_compra.go
