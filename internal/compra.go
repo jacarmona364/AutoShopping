@@ -10,3 +10,13 @@ type ListaCompra struct {
 	Total     float64
 }
 
+func NuevaListaCompra(productos []Producto) ListaCompra {
+    var total float64
+    for _, producto := range productos {
+        total += producto.Precio
+    }
+    return ListaCompra{
+        Productos: productos,
+        Total:     total,
+    }
+}
