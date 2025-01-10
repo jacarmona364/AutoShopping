@@ -6,7 +6,7 @@ type Producto struct {
 	Nombre       string
 	Marca        string
 	Precio       float64
-	Supermercado Supermercado
+	Supermercado float64
 	Alergias     []Alergia
 }
 
@@ -22,18 +22,8 @@ type Alergia string const (
 	SinPescado      Alergia = "SinPescado"
 )
 
-type Supermercado string const (
-	Mercadona		Supermercado = "Mercadona"
-	Alcampo			Supermercado = "Alcampo"
-	Carrefour		Supermercado = "Carrefour"
-	CorteIngles		Supermercado = "Corte Ingles"
-	Aldi			Supermercado = "Aldi"
-	Dia				Supermercado = "Dia"
-	Lidl			Supermercado = "Lidl"
-	Coviran			Supermercado = "Coviran"
-)
 
-func NuevoProducto(nombre, marca string, precio float64, supermercado Supermercado, alergias []Alergia) Producto {
+func NuevoProducto(nombre, marca string, precio float64, supermercado float64, alergias []Alergia) Producto {
 	if precio < 0 {
         return Producto{}, errors.New("El precio del producto no puede ser negativo")
     }

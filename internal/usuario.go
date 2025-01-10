@@ -5,10 +5,10 @@ type Usuario struct {
 	Nombre        string
 	Presupuesto   float64
 	Alergias      []Alergia
-	Supermercados []Supermercado
+	Supermercados []float64
 }
 
-func NuevoUsuario(dni, nombre string, presupuesto float64, alergias []Alergia, supermercados []Supermercado) (Usuario, error) {
+func NuevoUsuario(dni, nombre string, presupuesto float64, alergias []Alergia, supermercados []float64) (Usuario, error) {
     if presupuesto < 0 {
         return Usuario{}, errors.New("El presupuesto no puede ser negativo")
     }
