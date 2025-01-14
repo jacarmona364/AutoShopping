@@ -13,6 +13,6 @@ type ListaCompra struct {
 func NuevaListaCompra() ListaCompra {
 	return ListaCompra{
 		Productos: []Producto{}, 
-		Total:     Producto{},   
+		Total:     Precio{},   
 	}
 }
