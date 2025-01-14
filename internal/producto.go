@@ -2,18 +2,6 @@ package internal
 
 import "errors"
 
-//Objeto Valor: Supermercado
-type Supermercado struct {
-	Nombre string
-}
-
-func NuevoSupermercado(nombre string) (Supermercado, error) {
-	if nombre == "" {
-		return Supermercado{}, fmt.Errorf("El supermercado debe tener nombre")
-	}
-	return Supermercado{Nombre: nombre}, nil
-}
-
 //Objeto Valor: Precio
 type Precio struct {
 	Valor float64
@@ -43,16 +31,14 @@ type Producto struct {
 	Nombre       string
 	Marca        string
 	Precio       Precio
-	Supermercado Supermercado
 	Alergias     []Alergia
 }
 
-func NuevoProducto(nombre, marca string, precio Precio, supermercado Supermercado, alergias []Alergia) Producto {
+func NuevoProducto(nombre, marca string, precio Precio, alergias []Alergia) Producto {
 	return Producto{
 		Nombre:       nombre,
 		Marca:        marca,
 		Precio:       precio,
-		Supermercado: supermercado,
 		Alergias:     alergias,
 	}
 }
