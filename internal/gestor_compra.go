@@ -3,13 +3,11 @@ package internal
 import "errors"
 
 type GestorCompra struct {
-	Usuario Usuario
-	ListaCompra ListaCompra
+	Compra map[string]ListaCompra
 }
 
 func NuevoGestorCompra(usuario Usuario, listaCompra ListaCompra) GestorCompra {
 	return GestorCompra{
-		Usuario: usuario,
-		ListaCompra: listaCompra,
+		Compra: make(map[string]ListaCompra),
 	}
 }

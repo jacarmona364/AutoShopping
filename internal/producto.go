@@ -2,7 +2,7 @@ package internal
 
 import "errors"
 
-//Objeto Valor: Supernercado
+//Objeto Valor: Supermercado
 type Supermercado struct {
 	Nombre string
 }
